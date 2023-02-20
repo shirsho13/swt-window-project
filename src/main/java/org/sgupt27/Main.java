@@ -13,6 +13,7 @@ public class Main {
         shell.open();
 
         // Listen for IPC messages here and open a new SWT window when required.
+        //more code to be added 
 
         while (!shell.isDisposed()) {
             if (!display.readAndDispatch()) {
